@@ -41,3 +41,6 @@ script.sql
 *.ncrunchproject
 *.nupkg
 .paket/paket.exe
+/.vs/WebApiContrib.Formatting.Jsonp/v15/Server/sqlite3
+/.vs/config/applicationhost.config
+/.paket/Paket.Restore.targets

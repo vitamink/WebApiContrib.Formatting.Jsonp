@@ -7,6 +7,7 @@ namespace WebApiContrib.Formatting.Jsonp.Tests
     {
         [Test]
         [TestCase("jQuery12332434", true)]
+        [TestCase("CKEDITOR._.jsonpCallbacks[197]", true)]
         [TestCase("some.callback.into.deep.object", true)]
         [TestCase("<img src=\"\">", false)]
         [TestCase("alert('x'); //", false)]
